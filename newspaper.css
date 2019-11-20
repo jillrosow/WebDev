@@ -1,0 +1,125 @@
+#container {
+  width: 90%;
+  margin: 10px auto;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid gray;
+  line-height: 130%;
+}
+
+#header {
+  padding: .5em;
+  background-color: #ddd;
+  border-bottom: 1px solid gray;
+}
+
+#dateloc {
+  display: flex;;
+  justify-content: flex-end;
+}
+
+
+
+#header h1 {
+  padding: .5em;
+  margin: 0;
+  text-align: center;
+  font-size: 300%;
+}
+
+#leftNav {
+  float: left;
+  width: 160px;
+  margin: 0;
+  padding: 1em;
+}
+
+#leftNav a {
+  display: block;
+  margin: 0 0 3em 0;
+}
+
+#rightCol {
+  float: right;
+  width: 250px;
+  margin: auto;
+  padding: 1.5em;
+}
+
+#rightCol div {
+  display: block;
+  margin-bottom: 50px;
+}
+
+#acl, #concert, #animal {
+  display: block;
+  width: 90%;
+  text-align: center;
+  margin: 0 3em 0 0;
+}
+
+#content {
+  margin-left: 200px;
+  border-left: 1px solid gray;
+  margin-right: 200px;
+  border-right: 1px solid gray;
+  padding: 1em;
+  max-width: 45em;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 25em auto;
+  border-bottom: 1px dotted gray;
+}
+
+#leftGrid {
+  grid-column: 1 / 2;
+}
+
+#leftGrid h3 {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#content h2 {
+  text-align: center;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  margin-top: 0;
+}
+
+#rightGrid {
+  grid-column: 2 / 3;
+  text-align: center;
+}
+
+#rightGrid img {
+  display: block;
+  width: 90%;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bySection {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#leftSecs {
+  grid-column: 1 / 2;
+}
+
+#rightSecs {
+  grid-column: 2 / 3;
+}
+
+#footer {
+  clear: both;
+  margin: 0;
+  padding: .5em;
+  color: #333;
+  background-color: #ddd;
+  border-top: 1px solid gray;
+}
