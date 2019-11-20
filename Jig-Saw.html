@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title> Drag and drop </title>
+<meta charset="utf-8">
+<link rel = "stylesheet" type = "text/css" href = "./jigsaw.css">
+<script src = "./dragNDrop.js"></script>
+</head>
+<body onload = "load(event);">
+
+<h2>Jig-Saw Puzzle</h2>
+<div id = "timeStamp">
+<label for = "time">Time Taken</label><br>
+<textarea id = "time" name="time" rows = "2" cols = "20"></textarea>
+</div>
+<!-- grid image -->
+<div>
+<img class = "grid" src = "./puzzleback.gif" alt = "grid background"
+width = "400" height = "300">
+<button onclick = "reportTime(event);" id = "done" name = "done">Done</button>
+</div>
+<!-- first row of photos -->
+<span style = "position: absolute; top: 450px; left: 420px;"
+ onmousedown = "grabber(event);"></span>
+<span style = "position: absolute; top: 450px; left: 521px;"
+ onmousedown = "grabber(event);"></span>
+<span style = "position: absolute; top: 450px; left: 622px;"
+onmousedown = "grabber(event);"></span>
+<span style = "position: absolute; top: 450px; left: 723px;"
+onmousedown = "grabber(event);"></span>
+<span style = "position: absolute; top: 450px; left: 824px;"
+onmousedown = "grabber(event);"></span>
+<span style = "position: absolute; top: 450px; left: 925px;"
+onmousedown = "grabber(event);"></span>
+
+<!-- second row of photos -->
+<span style = "position: absolute; top: 551px; left: 420px;"
+onmousedown = "grabber(event);"></span>
+<span style = "position: absolute; top: 551px; left: 521px;"
+onmousedown = "grabber(event);"></span>
+<span style = "position: absolute; top: 551px; left: 622px;"
+onmousedown = "grabber(event);"></span>
+<span style = "position: absolute; top: 551px; left: 723px;"
+onmousedown = "grabber(event);"></span>
+<span style = "position: absolute; top: 551px; left: 824px;"
+onmousedown = "grabber(event);"></span>
+<span style = "position: absolute; top: 551px; left: 925px;"
+onmousedown = "grabber(event);"></span>
+</body>
+</html>
